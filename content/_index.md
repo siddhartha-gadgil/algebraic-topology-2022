@@ -1,13 +1,19 @@
 +++
-title="MA 231: Topology"
+title="MA 332: Algebraic Topology"
 +++
 
 ### Syllabus
 
-Open and closed sets,  continuous functions, Metric topology, Product topology, Connectedness and path-connectedness, Compactness, Countability axioms, Separation axioms, Complete metric spaces, Quotient topology, Topological groups, Orbit spaces, Urysohn's lemma, Metrizability, Baire Category theorem.
+__Homology__ : Singular homology, excision, Mayer-Vietoris theorem, acyclic models, CW-complexes, simplicial and cellular homology, homology with coefficients.
+
+__Cohomology__ : Comology groups, relative cohomology, cup products, cap product, orientation on manifolds, Poincar&eacute; duality.
+
+
 
 #### Suggested books: 
 
-1. Armstrong, M. A., Basic Topology, Springer (India), 2004.
-2. Munkres, J. R., Topology, Pearson Education, 2005.
-3. Viro, O.Ya., Ivanov, O.A., Netsvetaev, N., and Kharlamov, V.M., Elementary Topology: Problem Textbook, AMS, 2008.
+We will be following Hacher's book (available [online](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf)).
+
+1. Hatcher, A., Algebraic Topology, Cambridge Univ. Press, 2002 (Indian edition is available).
+2. Rotman, J, An Introduction to Algebraic Topology, Graduate Texts in Mathematics, 119, Springer-Verlag, 1988.
+3. Munkres, I. R., Elements of Algebraic Topology, Addison-Wesiley, 1984.
