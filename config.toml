@@ -1,0 +1,11 @@
+baseURL = "http://math.iisc.ac.in/~gadgil/topology-2021/"
+languageCode = "en-us"
+title = "MA 231: Topology"
+theme = "course"
+buildFuture = "true"
+[params]
+    code = "MA 231"
+    course = "Topology"
+    term = "August 2021"
+[markup.goldmark.renderer]
+unsafe= true

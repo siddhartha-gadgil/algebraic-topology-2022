@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Topology</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/league.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-autoslide="6000">
+				<h1>Topology</h1>
+				<h3>Siddhartha Gadgil</h3>
+				<h4>Department of Mathematics</h4>
+				<h4>Indian Institute of Science</h4>
+				<a href="http://math.iisc.ac.in/~gadgil/topology-2021/index.html" target="_blank">MA 231: August 2021</a>
+			</section>
+			<section>
+				<ul>
+					<li>These lectures are slide-shows with videos alternating with quizzes.</li>
+					<li>Please press the "F" key to enter fullscreen mode.</li>
+					<li>Both videos (from YouTube) and quizzes (from Google Forms) may take time to load.</li>
+					<li>After a video is over or submitting a quiz, please advance to the next slide.</li>
+					<li>You may like to make videos fullscreen, but please escape to advance to the next slide.</li>
+					
+				</ul>
+			</section>
+			<section>
+				<h4>1.1: What is topology?</h4>
+				<iframe width="853" height="505"  data-src="https://www.youtube.com/embed/czki9PRY4sw" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</section>
+			<section data-autoslide="2000">
+				<h1> Quiz 1.1</h1>
+				
+
+			</section>
+			<section
+				data-background-iframe="https://docs.google.com/forms/d/e/1FAIpQLSeqIvHMsWIQ94rgVH-SzkaDCRc0ov62y7fmz82lRPLy4bD8Rw/viewform?embedded=true"
+				data-background-interactive></section>
+			<section>
+				<h4>1.2: Topological Spaces</h4>
+				<iframe width="853" height="505"  data-src="https://www.youtube.com/embed/C1ICVby7aSY" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</section>
+			<section>
+				<h3><a href="lecture2.html">Next: Lecture 2</a></h3>
+				<p>Course: <a href="http://math.iisc.ac.in/~gadgil/topology-2021/index.html"
+					target="_blank">MA 231 (August 2021)</a></p>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+	<script src="plugin/math/math.js"></script>
+	<script>
+		Reveal.initialize({
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: {
+					Macros: {
+						R: "{\\mathbb{R}}",
+						C: "{\\mathbb{C}}",
+						N: "{\\mathbb{N}}",
+						Z: "{\\mathbb{Z}}",
+						Q: "{\\mathbb{Q}}",
+						del: "\\partial"
+					}
+				}
+			},
+			plugins: [RevealMath],
+			autoPlayMedia: true,
+			hash: true,
+			overview: false,
+			transition: 'concave',
+		});
+	</script>
+	<script>
+		for (var v of document.querySelectorAll('.reveal video')) {
+			v.addEventListener('ended', function () { Reveal.next(); });
+		}
+	</script>
+</body>
+
+</html>
