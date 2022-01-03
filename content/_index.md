@@ -2,6 +2,7 @@
 title="MA 332: Algebraic Topology"
 +++
 
+This is the second course in the Algebraic Topology series, following [MA 232: Introduction to Algebraic Topology](http://math.iisc.ac.in/all-courses/ma232.html) which I [taught online last academic year](http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2020/index.html). A reasonable background in algebra is also a prerequisite, including at least the structure theorem for (finitely generated) abelian groups. 
 ### Syllabus
 
 __Homology__ : Singular homology, excision, Mayer-Vietoris theorem, acyclic models, CW-complexes, simplicial and cellular homology, homology with coefficients.
