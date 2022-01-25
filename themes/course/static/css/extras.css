@@ -11,3 +11,7 @@ main {
 code{
   font-size: inherit;
 }
+
+li{
+  margin: 10px 0 !important;
+}

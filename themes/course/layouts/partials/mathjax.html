@@ -11,11 +11,15 @@
       processEscapes: true,
       skipTags: ['script', 'noscript', 'style', 'textarea']
     },
+      CommonHTML: {
+        scale: 85
+      },
     TeX: {
       Macros: {
         R: '\\mathbb{R}',
         Z: '\\mathbb{Z}',
-        C: '\\mathbb{C}'
+        C: '\\mathbb{C}',
+        del: `\\partial`
       }
     },
     messageStyle: "none",
