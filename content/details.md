@@ -16,3 +16,13 @@ and we will move offline when permitted by the IISc policy.
 Assignments will be submitted through Teams. There are Teams apps available for Windows, Linux (Debian/Ubuntu and Redhat), Mac, Android and iOS. 
 
 I would encourage using the Teams chat to ask questions whenever needed.  
+
+##### Prerecorded and live lectures
+
+We will be using some prerecorded lectures as part of the course. The [schedule for February](february/) and links are posted.
+
+#### Midterm I
+
+Midterm I will be an _oral examination_ which is based on assignments. This means that there will be individual Teams meetings with each student with questions that are from the assignments, but seeking more details, or are closely related to the assignments. The exam will be for __20% of the composite score__.
+ 
+The oral examinations are tentatively on Tuesday, February 22 and Thursday, February 24, though if possible they will be shifted to a single day (one of these two days).
